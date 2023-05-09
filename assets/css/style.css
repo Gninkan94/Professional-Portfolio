@@ -93,8 +93,23 @@ footer {padding: 15px 6% 15px 0;
   align-items: center;
   background-color: var(--tertiary);
   box-shadow: 0 5px 35px rgba(146, 204, 206, 0.4);
+  color: white;
 }
 footer h1{
-   display: inline; 
+   display: inline-flexbox; 
    align-items: center;
+}
+.page-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+}
+.page-section > h2 {
+  flex: 0 0 20%;
+
+
+}
+.page-section > p {
+  flex: 0 0 77%;
 }
