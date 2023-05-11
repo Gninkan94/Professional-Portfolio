@@ -234,11 +234,10 @@ footer {padding: 15px 6% 15px 0;
  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 878px) {
   .page-section{
     float: none;
     width: 100%;
     flex-direction: column;
-    background-color: yellowgreen;
+    background-color: yellowgreen;}
   }
- 
