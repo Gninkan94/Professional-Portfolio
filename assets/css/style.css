@@ -43,12 +43,12 @@
   
 h1,
 h2 {
-    margin: 0;
+    margin: 2px;
 
 }
   
   p {
-    margin: 0;
+    margin: 3px;
   }
   
 
@@ -233,3 +233,12 @@ footer {padding: 15px 6% 15px 0;
   background-color: yellowgreen;
  
 }
+
+@media screen and (max-width: 768px) {
+  .page-section{
+    float: none;
+    width: 100%;
+    flex-direction: column;
+    background-color: yellowgreen;
+  }
+ 
